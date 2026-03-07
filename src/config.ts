@@ -118,22 +118,8 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
-			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
-				"/assets/desktop-banner/5.webp",
-				"/assets/desktop-banner/6.webp",
-			], // 桌面横幅图片
-			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
-				"/assets/mobile-banner/5.webp",
-				"/assets/mobile-banner/6.webp",
-			], // 移动横幅图片
+			desktop: ["/assets/desktop-banner/1.JPG"], // 桌面横幅图片
+			mobile: ["/assets/mobile-banner/1.JPG"], // 移动横幅图片
 		}, // 使用本地横幅图片
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
@@ -160,7 +146,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Welcome to Flint Scophire's Blog", // 主页横幅主标题
+			title: "Hello World!", // 主页横幅主标题
 
 			subtitle: ["这是一个基于Mizuki的博客，目前正在施工"],
 			typewriter: {
@@ -274,10 +260,10 @@ export const navBarConfig: NavBarConfig = {
 					icon: "fa7-brands:bilibili",
 				},
 				{
-					name: "Solar Network",
+					name: "Solian",
 					url: "https://web.solian.app/#/accounts/bluewhaletech",
 					external: true,
-					icon: "mdi:git",
+					icon: "fa7-brands:bilibili",
 				},
 			],
 		},
@@ -371,8 +357,8 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/BluewhaleYF",
 		},
 		{
-			name: "Solar Network",
-			icon: "simple-icons:codeberg",
+			name: "Solian",
+			icon: "fa7-brands:github",
 			url: "https://web.solian.app/#/accounts/bluewhaletech",
 		},
 	],
@@ -432,7 +418,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "ブログへようこそ！これはサンプルの告知です", // 公告内容
+	content: "Building terrain...", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -600,7 +586,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: true, // 启用看板娘
+	enable: false, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 模型位置
 	width: 280, // 默认宽度
