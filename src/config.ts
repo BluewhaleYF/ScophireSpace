@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ScophireSpace",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/home.png",
+		icon: "assets/home/home.svg",
 		// 网站Logo图片路径
-		logo: "assets/home/default-logo.png",
+		logo: "assets/home/home.svg",
 	},
 
 	// 页面自动缩放配置
@@ -112,7 +112,7 @@ export const siteConfig: SiteConfig = {
 		// "mobile" = 仅在移动端显示
 		// "desktop" = 仅在桌面端显示
 		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "desktop",
+		showModeSwitchOnMobile: "both",
 	},
 
 	banner: {
@@ -255,7 +255,7 @@ export const navBarConfig: NavBarConfig = {
 					name: "Solian",
 					url: "https://web.solian.app/#/accounts/bluewhaletech",
 					external: true,
-					icon: "fa7-brands:bilibili",
+					icon: "material-symbols:chat",
 				},
 			],
 		},
@@ -318,7 +318,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Solian",
-			icon: "fa7-brands:github",
+			icon: "material-symbols:chat",
 			url: "https://web.solian.app/#/accounts/bluewhaletech",
 		},
 	],
@@ -389,7 +389,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://meting.mysqil.com/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
