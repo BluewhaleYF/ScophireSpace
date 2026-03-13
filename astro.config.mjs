@@ -64,7 +64,11 @@ export default defineConfig({
 				);
 			},
 		}),
-		icon(),
+		icon({
+			iconsets: {
+				solian: "./src/icons",
+			},
+		}),
 		expressiveCode({
 			themes: ["github-light", "github-dark"],
 			plugins: [
@@ -198,3 +202,4 @@ export default defineConfig({
 		},
 	},
 });
+

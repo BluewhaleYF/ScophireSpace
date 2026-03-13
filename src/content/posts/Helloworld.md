@@ -3,7 +3,7 @@ title: Hello World!
 published: 2026-03-08
 description: 这是我的第一篇文章
 tags:
-  - blog
+  - site
 draft: false
 ---
 欢迎来到 **ScophireSpace**。

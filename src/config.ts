@@ -100,7 +100,7 @@ export const siteConfig: SiteConfig = {
 	// 标签样式配置
 	tagStyle: {
 		// 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
-		useNewStyle: false,
+		useNewStyle: true,
 	},
 
 	// 壁纸模式配置
@@ -122,22 +122,24 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/Boat.JPG",
 				"/assets/desktop-banner/Mountain.JPG",
 				"/assets/desktop-banner/Green.JPG",
+				/*
 				"/assets/desktop-banner/MacOS.png",
+				*/
 			], // 桌面横幅图片
-			mobile: ["/assets/mobile-banner/1.JPG"], // 移动横幅图片
+			mobile: ["/assets/mobile-banner/Green-mobile.JPG"], // 移动横幅图片
 		}, // 使用本地横幅图片
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
 
 		carousel: {
-			enable: false, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
-			interval: 5, // 轮播间隔时间（秒）
+			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
+			interval: 8, // 轮播间隔时间（秒）
 		},
 
 		waves: {
 			enable: true, // 是否启用水波纹效果（注意：此功能性能开销较大）
 			performanceMode: true, // 性能模式：减少动画复杂度(性能提升40%)
-			mobileDisable: true, // 移动端禁用
+			mobileDisable: false, // 移动端禁用
 		},
 
 		// PicFlow API支持(智能图片API)
@@ -152,10 +154,9 @@ export const siteConfig: SiteConfig = {
 		homeText: {
 			enable: true, // 在主页显示自定义文本
 			title: "欢迎来到ScophireSpace", // 主页横幅主标题
-			subtitle: ["海内存知己，天涯若比邻"],
+			subtitle: ["海内存知己，天涯若比邻", "闇と光の交わる fanatic"],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
-
 				speed: 90, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
 				pauseTime: 1000, // 完全显示后的暂停时间（毫秒）
@@ -169,7 +170,7 @@ export const siteConfig: SiteConfig = {
 		},
 
 		navbar: {
-			transparentMode: "semi", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明，"semifull" 动态透明
+			transparentMode: "semifull", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明，"semifull" 动态透明
 		},
 	},
 	toc: {
@@ -216,8 +217,9 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 		desktop: [
 			"/assets/desktop-banner/Boat.JPG",
 			"/assets/desktop-banner/Mountain.JPG",
+			"/assets/desktop-banner/Green.JPG",
 		], // 桌面横幅图片
-		mobile: [], // 移动横幅图片
+		mobile: ["/assets/mobile-banner/Green-mobile.JPG"], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
@@ -255,7 +257,7 @@ export const navBarConfig: NavBarConfig = {
 					name: "Solian",
 					url: "https://web.solian.app/#/accounts/bluewhaletech",
 					external: true,
-					icon: "material-symbols:chat",
+					icon: "solian",
 				},
 			],
 		},
@@ -318,7 +320,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Solian",
-			icon: "material-symbols:chat",
+			icon: "solian",
 			url: "https://web.solian.app/#/accounts/bluewhaletech",
 		},
 	],
@@ -388,14 +390,9 @@ export const announcementConfig: AnnouncementConfig = {
 	},
 };
 
-export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: false, // 启用音乐播放器功能
-	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
-	meting_api:
-		"https://meting.mysqil.com/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
-	id: "14164869977", // 歌单ID
-	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
-	type: "playlist", // 播单类型
+export const musicPlayerConfig = {
+	enable: true,
+	mode: "local",
 };
 
 export const footerConfig: FooterConfig = {
