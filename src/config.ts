@@ -255,7 +255,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "Solian",
-					url: "https://web.solian.app/#/accounts/bluewhaletech",
+					url: "https://solian.app/accounts/bluewhaletech",
 					external: true,
 					icon: "solian",
 				},
@@ -321,7 +321,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Solian",
 			icon: "solian",
-			url: "https://web.solian.app/#/accounts/bluewhaletech",
+			url: "https://solian.app/accounts/bluewhaletech",
 		},
 	],
 };
