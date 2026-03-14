@@ -26,7 +26,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://raw.githubusercontent.com/BluewhaleYF/ScophireSpace-Files/refs/heads/main/littlesheep.webp",
 		desc: "ラムです的 Solar Network Pages 博客 \n山羊寒舍",
 		siteurl: "https://littlesheep.me/",
-		tags: ["Friends"],
+		tags: ["Friends", "Blog"],
 	},
 	{
 		id: 3,
@@ -34,7 +34,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.necoarcchaos.xyz/_astro/Chaoss.DFvC6oND_oNina.webp",
 		desc: "NecoArc-Chaos的博客，为本站建立提供灵感",
 		siteurl: "https://www.necoarcchaos.xyz/",
-		tags: ["Friends"],
+		tags: ["Friends", "Blog"],
 	},
 	{
 		id: 4,
@@ -42,7 +42,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://texas0295.top/resources/img/site/info-img.jpg",
 		desc: "Texas0295的個人部落格",
 		siteurl: "https://texas0295.top/",
-		tags: ["Friends"],
+		tags: ["Friends", "Blog"],
 	},
 	{
 		id: 5,
@@ -50,7 +50,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://nanci.solian.page/avatar.png",
 		desc: "遥看月色亦无痕，夜雨落花沾凡尘",
 		siteurl: "https://blog.thsl.dpdns.org/",
-		tags: ["Friends"],
+		tags: ["Friends", "Blog"],
 	},
 	{
 		id: 6,
@@ -58,7 +58,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://blog.mky-an20.osfs.top/lib/img/avatar.png",
 		desc: "您好,这里是MKY-AN20,欢迎来到我的博客",
 		siteurl: "https://blog.mky-an20.osfs.top/",
-		tags: ["Friends"],
+		tags: ["Friends", "Blog"],
 	},
 	{
 		id: 7,
@@ -67,6 +67,14 @@ export const friendsData: FriendItem[] = [
 		desc: "现代拟物化中文论坛 StyleStar Experimental",
 		siteurl: "https://www.stylestar.win/",
 		tags: ["Forum"],
+	},
+	{
+		id: 8,
+		title: "清雨博客",
+		imgurl: "https://www.stylestar.win/styles/vista/theme/images/logo.png",
+		desc: "嗨，我是 清雨，一位对计算机领域充满热情的爱好者。",
+		siteurl: "https://www.452789.xyz/",
+		tags: ["Friends", "Blog"],
 	},
 ];
 

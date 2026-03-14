@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ScophireSpace",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/home.svg",
+		icon: "assets/home/favicon.png",
 		// 网站Logo图片路径
-		logo: "assets/home/home.svg",
+		logo: "assets/home/favicon.svg",
 	},
 
 	// 页面自动缩放配置
