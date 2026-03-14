@@ -1,6 +1,6 @@
 ---
 title: Hello World!
-date: 2026-03-08
+published: 2026-03-08
 description: 这是我的第一篇文章
 tags: 
   - site
