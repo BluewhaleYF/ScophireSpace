@@ -1,10 +1,12 @@
 ---
 title: Hello World!
-published: 2026-03-08
+date: 2026-03-08
 description: 这是我的第一篇文章
-tags:
+tags: 
   - site
+category: 公告
 draft: false
+pinned: false
 ---
 欢迎来到 **ScophireSpace**。
 
@@ -21,4 +23,4 @@ Hello World.
 
 ---
 除特别声明以外，文章采用
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议共享，转载请注明来源
+ [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享，转载请注明来源
