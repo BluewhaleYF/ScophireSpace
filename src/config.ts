@@ -138,7 +138,7 @@ export const siteConfig: SiteConfig = {
 
 		waves: {
 			enable: true, // 是否启用水波纹效果（注意：此功能性能开销较大）
-			performanceMode: true, // 性能模式：减少动画复杂度(性能提升40%)
+			performanceMode: false, // 性能模式：减少动画复杂度(性能提升40%)
 			mobileDisable: false, // 移动端禁用
 		},
 
@@ -164,8 +164,8 @@ export const siteConfig: SiteConfig = {
 		},
 
 		credit: {
-			enable: false, // 显示横幅图片来源文本
-			text: "", // 要显示的来源文本
+			enable: true, // 显示横幅图片来源文本
+			text: "Flint Scophire & DS Shen", // 要显示的来源文本
 			url: "", // （可选）原始艺术品或艺术家页面的 URL 链接
 		},
 
@@ -299,7 +299,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/profile.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Flint Scophire",
-	bio: "",
+	bio: "你好呀，我是 Flint Scophire",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -376,8 +376,9 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "重要通知", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "欢迎来到我的个人博客。目前本站正在施工，具体上线时间待定", // 公告内容
+	title: "开放通知", // 公告标题，填空使用i18n字符串Key.announcement
+	content:
+		"欢迎来到我的个人博客！经过15天的调整，博客已经基本配置完毕，正式公开", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
