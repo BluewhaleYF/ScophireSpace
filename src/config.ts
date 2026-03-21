@@ -57,7 +57,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/favicon.png",
 		// 网站Logo图片路径
-		logo: "assets/home/favicon.svg",
+		logo: "assets/home/favicon.png",
 	},
 
 	// 页面自动缩放配置
@@ -182,12 +182,9 @@ export const siteConfig: SiteConfig = {
 	showCoverInContent: true, // 在文章内容页显示文章封面
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
-		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		{
+			src: "/favicon.png",
+		},
 	],
 
 	// 字体配置
@@ -300,7 +297,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/profile.JPG", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/profile.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Flint Scophire",
 	bio: "",
 	typewriter: {
