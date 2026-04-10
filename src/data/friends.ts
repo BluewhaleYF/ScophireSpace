@@ -57,7 +57,7 @@ export const friendsData: FriendItem[] = [
 		title: "MKY-AN20's Blog",
 		imgurl: "https://blog.mky-an20.osfs.top/lib/img/avatar.png",
 		desc: "您好,这里是MKY-AN20,欢迎来到我的博客",
-		siteurl: "https://blog.mky-an20.osfs.top/",
+		siteurl: "https://3w.mky-an20.osfs.top/",
 		tags: ["Friends", "Blog"],
 	},
 	{
