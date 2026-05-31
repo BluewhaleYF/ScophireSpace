@@ -81,16 +81,20 @@
 
 ## 技术信息
 
-本站：
+::github{repo="BluewhaleYF/ScophireSpace"}
+
+### 主题
 
 - 使用 **Astro** 构建
 - 主题基于 **Mizuki**
 
 ::github{repo="matsuzaka-yuki/Mizuki"}
 
+### 部署
+
 - 部署在 **[Cloudflare Pages](https://scophirespace.pages.dev)**
 
-同时也要感谢朋友 [NecoArc-Chaos](https://www.necoarcchaos.xyz/) 提供的灵感与参考。
+### 成本
 
 在本站的建设过程中，除了 **域名费用** 之外，几乎没有任何额外开销。  
 网站托管、CDN 等服务都由 Cloudflare 提供，因此才能以接近零成本的方式运行这个博客。
@@ -108,10 +112,25 @@
 
 ---
 
-最后更新：2026-3-21 v1.0.1
+## 认证
+
+我们自豪地宣布，本站已正式通过 **“中羊网备”** 官方认证，加入 **中华羊国网络信息办公室** 受信任网站列表！
+
+> **备案号**：**羝 ICP 备 202600002 号**
+
+> **认证状态**：已通过 (2026年5月24日)
+
+
+**[查看官方备案页 | 中华羊国网络信息办公室](https://solsynth.dev/zh/icp/202600002)**
+
+
+
+---
+
+最后更新：2026-5-31 v1.1.0
 
 ---
 本页面为站点说明页面，不适用本站文章默认的 CC BY-NC-SA 4.0 协议。  
 未经许可不得转载或复制。
 
-© Flint Scophire. All Rights Reserved.
+© 2026 Flint Scophire. All Rights Reserved.
