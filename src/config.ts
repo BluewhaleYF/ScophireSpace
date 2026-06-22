@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ScophireSpace",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/favicon.png",
+		icon: "assets/home/topbanner_icon.png",
 		// 网站Logo图片路径
-		logo: "assets/home/favicon.png",
+		logo: "assets/home/topbanner_icon.png",
 	},
 
 	// 页面自动缩放配置
@@ -67,12 +67,12 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 		fetchOnDev: false, // 是否在开发环境下获取 Bangumi 数据（默认 false），获取前先执行 pnpm build 构建 json 文件
 	},
 
 	bilibili: {
-		vmid: "1", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
+		vmid: "bilibili-uid", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
 		fetchOnDev: false, // 是否在开发环境下获取 Bilibili 数据（默认 false）
 		coverMirror: "", // 封面图片镜像源（可选，如果需要使用镜像源，例如 "https://images.weserv.nl/?url="）
 		useWebp: true, // 是否使用WebP格式（默认 true）
@@ -165,7 +165,7 @@ export const siteConfig: SiteConfig = {
 				enable: true, // 启用副标题打字机效果
 				speed: 90, // 打字速度（毫秒）
 				deleteSpeed: 45, // 删除速度（毫秒）
-				pauseTime: 800, // 完全显示后的暂停时间（毫秒）
+				pauseTime: 1145, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
