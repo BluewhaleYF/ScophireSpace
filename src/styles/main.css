@@ -33,15 +33,15 @@
 /* 导入 ZenMaruGothic-Medium 字体 */
 @font-face {
   font-family: "ZenMaruGothic-Medium";
-  src: url("/assets/font/ZenMaruGothic-Medium.woff2") format("woff2");
+  src: url("/assets/font/ZenMaruGothic-Medium.ttf") format("ttf");
   font-weight: 500;
   font-display: swap;
 }
 
-/* 导入 HarmonyOS_Sans_SC_Light 字体 */
+/* 导入 HarmonyOS_Sans_SC_Regular 字体 */
 @font-face {
-  font-family: "HarmonyOS_Sans_SC_Light";
-  src: url("/assets/font/HarmonyOS_Sans_SC_Light.ttf") format("ttf");
+  font-family: "HarmonyOS_Sans_SC_Regular";
+  src: url("/assets/font/HarmonyOS_Sans_SC_Regular.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;

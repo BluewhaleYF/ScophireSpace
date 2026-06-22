@@ -32,8 +32,8 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 205, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: true, // 对访问者隐藏主题色选择器
+		hue: 255, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
 	// 特色页面开关配置（关闭未使用的页面有助于提升 SEO，关闭后请记得在 navbarConfig 中移除对应链接）
@@ -72,7 +72,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bilibili: {
-		vmid: "1360046719", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
+		vmid: "1", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
 		fetchOnDev: false, // 是否在开发环境下获取 Bilibili 数据（默认 false）
 		coverMirror: "", // 封面图片镜像源（可选，如果需要使用镜像源，例如 "https://images.weserv.nl/?url="）
 		useWebp: true, // 是否使用WebP格式（默认 true）
@@ -145,7 +145,7 @@ export const siteConfig: SiteConfig = {
 		// PicFlow API支持(智能图片API)
 		imageApi: {
 			enable: false, // 启用图片API
-			url: "http://domain.com/api_v2.php?format=text&count=4", // API地址，返回每行一个图片链接的文本
+			url: "https://www.example.com/", // API地址，返回每行一个图片链接的文本
 		},
 		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
 		// 项目地址:https://github.com/matsuzaka-yuki/PicFlow-API
@@ -154,18 +154,24 @@ export const siteConfig: SiteConfig = {
 		homeText: {
 			enable: true, // 在主页显示自定义文本
 			title: "欢迎来到ScophireSpace", // 主页横幅主标题
-			subtitle: ["海内存知己，天涯若比邻", "闇と光の交わる fanatic"],
+			subtitle: [
+				"闇と光の交わる fanatic",
+				"海内存知己，天涯若比邻",
+				"Masterpiece.",
+				"Exodus 20:20",
+				"world.executr(me);",
+			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 				speed: 90, // 打字速度（毫秒）
-				deleteSpeed: 50, // 删除速度（毫秒）
-				pauseTime: 1000, // 完全显示后的暂停时间（毫秒）
+				deleteSpeed: 45, // 删除速度（毫秒）
+				pauseTime: 800, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
 		credit: {
 			enable: true, // 显示横幅图片来源文本
-			text: "Flint Scophire & DS Shen", // 要显示的来源文本
+			text: "Flint Scophire & Dionge", // 要显示的来源文本
 			url: "", // （可选）原始艺术品或艺术家页面的 URL 链接
 		},
 
@@ -176,7 +182,7 @@ export const siteConfig: SiteConfig = {
 	toc: {
 		enable: true, // 启用目录功能
 		mode: "sidebar", // 目录显示模式："float" 悬浮按钮模式，"sidebar" 侧边栏模式
-		depth: 2, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
+		depth: 3, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
 		useJapaneseBadge: false, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
 	},
 	showCoverInContent: true, // 在文章内容页显示文章封面
@@ -194,7 +200,7 @@ export const siteConfig: SiteConfig = {
 		asciiFont: {
 			// 英文字体 - 优先级最高
 			// 指定为英文字体则无论字体包含多大范围，都只会保留 ASCII 字符子集
-			fontFamily: "HarmonyOS_Sans_SC_Light.ttf",
+			fontFamily: "ZenMaruGothic-Medium.ttf",
 			fontWeight: "500",
 			localFonts: ["HarmonyOS_Sans_SC_Light.ttf"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
@@ -314,11 +320,6 @@ export const profileConfig: ProfileConfig = {
 			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/BluewhaleYF",
-		},
-		{
-			name: "Solian",
-			icon: "solian",
-			url: "https://solian.app/accounts/bluewhaletech",
 		},
 	],
 };
