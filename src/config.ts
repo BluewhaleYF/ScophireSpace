@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 255, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 235, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -202,14 +202,14 @@ export const siteConfig: SiteConfig = {
 			// 指定为英文字体则无论字体包含多大范围，都只会保留 ASCII 字符子集
 			fontFamily: "ZenMaruGothic-Medium.ttf",
 			fontWeight: "500",
-			localFonts: ["HarmonyOS_Sans_SC_Light.ttf"],
+			localFonts: ["ZenMaruGothic-Medium.ttf"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 		cjkFont: {
 			// 中日韩字体 - 作为回退字体
-			fontFamily: "HarmonyOS_Sans_SC_Light.ttf",
-			fontWeight: "500",
-			localFonts: ["HarmonyOS_Sans_SC_Light.ttf"],
+			fontFamily: "HarmonyOS_Sans_SC_Regular.ttf",
+			fontWeight: "400",
+			localFonts: ["HarmonyOS_Sans_SC_Regular.ttf"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 	},
