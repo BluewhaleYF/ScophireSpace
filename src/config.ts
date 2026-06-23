@@ -377,9 +377,9 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "开放通知", // 公告标题，填空使用i18n字符串Key.announcement
+	title: "访问通知", // 公告标题，填空使用i18n字符串Key.announcement
 	content:
-		"欢迎来到我的个人博客！经过15天的调整，博客已经基本配置完毕，正式公开", // 公告内容
+		"本站部分图片资源位于 Github。为获得更好的浏览体验，请确保您能够稳定访问 Github Usercontent 网站", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
@@ -550,7 +550,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "Welcome to ScophireSpace", // 欢迎词
 		touch: ["What are you doing?"], // 触摸提示
 		home: "Click here to go back to homepage!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
