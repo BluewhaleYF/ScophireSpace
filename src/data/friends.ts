@@ -18,7 +18,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://github.com/BluewhaleYF/ScophireSpace-Files/blob/main/Friends/Solian.webp?raw=true",
 		desc: "A peaceful social network",
 		siteurl: "https://web.solian.app",
-		tags: ["Social Media", "Social Network"],
+		tags: ["Social Network"],
 	},
 	{
 		id: 2,
@@ -66,6 +66,14 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://raw.githubusercontent.com/BluewhaleYF/ScophireSpace-Files/refs/heads/main/Friends/Qingmo.webp",
 		desc: "一个热爱技术、喜欢折腾的开发者。 专注于前端开发，偶尔写写后端。 记录生活，分享技术，探索未知。",
 		siteurl: "https://www.452789.xyz/",
+		tags: ["Friends", "Blog"],
+	},
+		{
+		id: 8,
+		title: "GoatShed",
+		imgurl: "https://raw.githubusercontent.com/BluewhaleYF/ScophireSpace-Files/refs/heads/main/Friends/Goatshed.webp",
+		desc: "山羊寒舍 也就是小羊的博客啦",
+		siteurl: "https://littlesheep.me/",
 		tags: ["Friends", "Blog"],
 	},
 ];
