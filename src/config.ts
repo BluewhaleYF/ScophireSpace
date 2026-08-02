@@ -159,7 +159,7 @@ export const siteConfig: SiteConfig = {
 				"海内存知己，天涯若比邻",
 				"Masterpiece.",
 				"Exodus 20:20",
-				"world.executr(me);",
+				"world.execute(me);",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
