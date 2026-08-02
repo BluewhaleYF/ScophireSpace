@@ -68,7 +68,7 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.452789.xyz/",
 		tags: ["Friends", "Blog"],
 	},
-		{
+	{
 		id: 8,
 		title: "GoatShed",
 		imgurl: "https://raw.githubusercontent.com/BluewhaleYF/ScophireSpace-Files/refs/heads/main/Friends/Goatshed.webp",
