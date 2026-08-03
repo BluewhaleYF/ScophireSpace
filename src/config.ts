@@ -239,7 +239,8 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接，支持多级菜单
-		{
+		/*{
+			
 			name: "Links",
 			url: "/links/",
 			icon: "material-symbols:link",
@@ -250,20 +251,9 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa7-brands:github",
 				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/1360046719",
-					external: true,
-					icon: "fa7-brands:bilibili",
-				},
-				{
-					name: "Solian",
-					url: "https://solian.app/accounts/bluewhaletech",
-					external: true,
-					icon: "solian",
-				},
 			],
 		},
+		*/
 		/*
 		{
 			name: "My",
@@ -320,6 +310,11 @@ export const profileConfig: ProfileConfig = {
 			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/BluewhaleYF",
+		},
+		{
+			name: "Mastodon",
+			icon: "fa7-brands:mastodon",
+			url: "https://mastodon.social/@scophire",
 		},
 	],
 };
